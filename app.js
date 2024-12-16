@@ -39,7 +39,7 @@ function stopwatch() {
       h++;
     }
     watchStyling();
-  }, 100);
+  }, 1000);
 }
 
 // add an extra zero when digit is single
