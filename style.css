@@ -109,7 +109,7 @@ h1 {
   }
 
   h1 {
-    height: 4rem;
+    margin-top: 0.5rem;
     line-height: 2rem;
     font-size: 2rem;
   }
