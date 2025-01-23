@@ -15,7 +15,6 @@ h1 {
 
 .container {
   margin-top: 5rem;
-
   height: 18rem;
   width: auto;
   /* margin-left: -1%; */
@@ -31,7 +30,6 @@ h1 {
   line-height: 18rem;
   height: 18rem;
   font-size: 14rem;
-  width: 16rem;
 }
 
 .dot {
@@ -76,4 +74,43 @@ h1 {
 }
 #reset-btn:active {
   border: 2px solid grey;
+}
+
+@media (max-width: 790px) {
+  #hour,
+  #min,
+  #sec {
+    font-size: 9rem;
+  }
+
+  .dot {
+    line-height: 17rem;
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #hour,
+  #min,
+  #sec {
+    height: 9rem;
+    font-size: 5rem;
+  }
+
+  .container {
+    height: 15rem;
+    margin-top: 0;
+  }
+
+  .dot {
+    height: 8rem;
+    line-height: 17rem;
+    font-size: 5rem;
+  }
+
+  h1 {
+    height: 4rem;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
 }
