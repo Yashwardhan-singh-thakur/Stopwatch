@@ -10,6 +10,9 @@ let s = 0;
 
 let secIntervalId;
 
+// Start and stop btn
+startStopBtn.addEventListener("click", startStop);
+
 // Using Space bar and r key to start & stop and reset stopwatch
 addEventListener("keypress", (evt) => {
   if (evt.key === " ") {
@@ -19,9 +22,6 @@ addEventListener("keypress", (evt) => {
     resetClock();
   }
 });
-
-// Start and stop btn
-startStopBtn.addEventListener("click", startStop);
 
 // reset btn
 resetBtn.addEventListener("click", resetClock);
